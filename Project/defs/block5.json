@@ -1,0 +1,19 @@
+{
+    "name": "block5",
+    "type": "dynamic",
+    "description": "A long horizonal block",
+    "shape": [
+        { "x": -10, "y": 0 },
+        { "x": 200, "y": 0 },
+        { "x": 200, "y": -10 },
+        { "x": -10, "y": -10 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 999999,    
+    "controller": "lib/block5.so"
+}
